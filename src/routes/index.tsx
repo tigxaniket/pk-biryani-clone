@@ -17,9 +17,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Hotel Chul Jatra | Best Biryani & Tandoori in Pune" },
-      { name: "description", content: "Authentic veg & non-veg biryani, tandoori specialities and hearty thalis at Hotel Chul Jatra. Karvenagar, Pune. Open 11AM–11PM daily." },
+      { name: "description", content: "Authentic veg & non-veg biryani, tandoori specialities and hearty thalis at Hotel Chul Jatra. Moshi, Pune. Open 11AM–11PM daily." },
       { property: "og:title", content: "Hotel Chul Jatra" },
-      { property: "og:description", content: "Authentic biryani, tandoori and thalis at Hotel Chul Jatra in Karvenagar, Pune." },
+      { property: "og:description", content: "Authentic biryani, tandoori and thalis at Hotel Chul Jatra in Moshi, Pune." },
     ],
   }),
   component: Home,
@@ -95,7 +95,7 @@ function Home() {
               The real taste of <span className="text-secondary">tradition</span>
             </h2>
             <p className="mt-6 text-muted-foreground">
-              Located in Pune, Hotel Chul Jatra is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes and a wide range of freshly prepared Indian Thalis.
+              Located in Moshi, Pune, Hotel Chul Jatra is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes and a wide range of freshly prepared Indian Thalis.
             </p>
             <p className="mt-4 text-muted-foreground">
               Every dish is carefully prepared using high-quality ingredients and our specially crafted homemade spices. Our team is committed to great taste, hygiene and warm hospitality — we serve food with love, just the way you like it.
