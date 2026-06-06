@@ -93,7 +93,7 @@ function Menu() {
           <span className="font-display text-sm uppercase tracking-[0.4em]">Our Menu</span>
           <h1 className="mt-2 font-display text-5xl font-bold md:text-6xl">A flavour for every craving</h1>
           <p className="mx-auto mt-4 max-w-2xl">
-            Prices are indicative. Please call <a href="tel:01205244586" className="underline underline-offset-4">01205244586</a> to confirm availability or place an order.
+            Prices are indicative. Please call <a href="tel:9158440062" className="underline underline-offset-4">9158440062</a> to confirm availability or place an order.
           </p>
         </div>
       </section>

@@ -37,10 +37,10 @@ export function SiteNav() {
         </nav>
 
         <a
-          href="tel:01205244586"
+          href="tel:9158440062"
           className="hidden items-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-semibold text-background transition hover:bg-secondary lg:inline-flex"
         >
-          <Phone className="h-4 w-4" /> Call : 01205244586
+          <Phone className="h-4 w-4" /> Call : 9158440062
         </a>
 
         <button
@@ -66,10 +66,10 @@ export function SiteNav() {
               </Link>
             ))}
             <a
-              href="tel:01205244586"
+              href="tel:9158440062"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-foreground px-5 py-2.5 text-sm font-semibold text-background"
             >
-              <Phone className="h-4 w-4" /> Call : 01205244586
+              <Phone className="h-4 w-4" /> Call : 9158440062
             </a>
           </div>
         </div>

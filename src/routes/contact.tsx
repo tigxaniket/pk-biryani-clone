@@ -29,7 +29,7 @@ function Contact() {
         <div className="mx-auto grid max-w-6xl gap-10 px-6 md:grid-cols-2 md:px-10">
           <div className="space-y-6">
             <InfoCard icon={MapPin} title="Address" body="112, MIDC, Moshi, Pune, Pimpri-Chinchwad, Maharashtra 411062" />
-            <InfoCard icon={Phone} title="Phone" body={<a href="tel:01205244586" className="hover:text-secondary">01205244586</a>} />
+            <InfoCard icon={Phone} title="Phone" body={<a href="tel:9158440062" className="hover:text-secondary">9158440062</a>} />
             <InfoCard icon={Mail} title="Email" body={<a href="mailto:hello@hotelchuljatra.in" className="hover:text-secondary">hello@hotelchuljatra.in</a>} />
             <InfoCard icon={Clock} title="Timings" body="Mon – Sun · 11:00 AM – 11:00 PM (All days open)" />
 
