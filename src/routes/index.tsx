@@ -8,7 +8,8 @@ import chickenThali from "@/assets/chicken-thali.jpg";
 import paneer from "@/assets/paneer-masala.jpg";
 import tandoori from "@/assets/tandoori.jpg";
 import vegBiryani from "@/assets/veg-biryani.jpg";
-import interior from "@/assets/restaurant-interior.jpg";
+import interiorAsset from "@/assets/restaurant-exterior.jpg.asset.json";
+const interior = interiorAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
