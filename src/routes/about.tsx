@@ -30,7 +30,7 @@ function About() {
           <img src={interior} alt="Restaurant interior" className="aspect-[4/3] rounded-2xl object-cover shadow-xl" loading="lazy" />
           <div className="space-y-4 text-muted-foreground">
             <p>
-              At Hotel Chul Jatra, we bring you the real taste of authentic flavours with every bite. Located in Karvenagar, Pune, our restaurant is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis.
+              At Hotel Chul Jatra, we bring you the real taste of authentic flavours with every bite. Located in Moshi, Pune, our restaurant is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis.
             </p>
             <p>
               We believe in offering food that is full of taste, freshness and tradition. Every dish is carefully prepared using high-quality ingredients and our specially crafted homemade spices.
