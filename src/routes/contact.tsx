@@ -5,8 +5,8 @@ import { MapPin, Phone, Clock, Mail } from "lucide-react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact | PK Biryani House No 1" },
-      { name: "description", content: "Visit or call PK Biryani House No 1 in Karvenagar, Pune. Open daily 11 AM – 11 PM." },
+      { title: "Contact | Hotel Chul Jatra" },
+      { name: "description", content: "Visit or call Hotel Chul Jatra in Karvenagar, Pune. Open daily 11 AM – 11 PM." },
     ],
   }),
   component: Contact,
@@ -68,7 +68,7 @@ function Contact() {
         <div className="mx-auto mt-16 max-w-6xl px-6 md:px-10">
           <div className="overflow-hidden rounded-2xl border shadow-sm">
             <iframe
-              title="PK Biryani House location"
+              title="Hotel Chul Jatra location"
               src="https://www.google.com/maps?q=Karvenagar+Pune&output=embed"
               width="100%"
               height="400"

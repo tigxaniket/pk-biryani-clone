@@ -10,8 +10,8 @@ import vegBiryani from "@/assets/veg-biryani.jpg";
 export const Route = createFileRoute("/menu")({
   head: () => ({
     meta: [
-      { title: "Menu | PK Biryani House No 1" },
-      { name: "description", content: "Explore our biryani, tandoori, curries, thalis and sides at PK Biryani House No 1, Pune." },
+      { title: "Menu | Hotel Chul Jatra" },
+      { name: "description", content: "Explore our biryani, tandoori, curries, thalis and sides at Hotel Chul Jatra, Pune." },
     ],
   }),
   component: Menu,

@@ -12,8 +12,8 @@ import hero from "@/assets/hero-biryani.jpg";
 export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
-      { title: "Gallery | PK Biryani House No 1" },
-      { name: "description", content: "A look at our dishes and ambience at PK Biryani House No 1 in Karvenagar, Pune." },
+      { title: "Gallery | Hotel Chul Jatra" },
+      { name: "description", content: "A look at our dishes and ambience at Hotel Chul Jatra in Karvenagar, Pune." },
     ],
   }),
   component: Gallery,

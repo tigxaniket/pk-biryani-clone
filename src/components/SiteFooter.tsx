@@ -45,7 +45,7 @@ export function SiteFooter() {
       </div>
       <div className="border-t border-background/10">
         <div className="mx-auto max-w-7xl px-6 py-5 text-center text-xs text-background/60 md:px-10">
-          © {new Date().getFullYear()} PK Biryani House No 1. All rights reserved.
+          © {new Date().getFullYear()} Hotel Chul Jatra. All rights reserved.
         </div>
       </div>
     </footer>

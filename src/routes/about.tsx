@@ -6,8 +6,8 @@ import hero from "@/assets/hero-biryani.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Us | PK Biryani House No 1" },
-      { name: "description", content: "Learn about PK Biryani House No 1 — Pune's home of authentic biryani, tandoori and thalis crafted with traditional recipes." },
+      { title: "About Us | Hotel Chul Jatra" },
+      { name: "description", content: "Learn about Hotel Chul Jatra — Pune's home of authentic biryani, tandoori and thalis crafted with traditional recipes." },
     ],
   }),
   component: About,
@@ -30,13 +30,13 @@ function About() {
           <img src={interior} alt="Restaurant interior" className="aspect-[4/3] rounded-2xl object-cover shadow-xl" loading="lazy" />
           <div className="space-y-4 text-muted-foreground">
             <p>
-              At PK Biryani House No 1, we bring you the real taste of authentic flavours with every bite. Located in Karvenagar, Pune, our restaurant is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis.
+              At Hotel Chul Jatra, we bring you the real taste of authentic flavours with every bite. Located in Karvenagar, Pune, our restaurant is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis.
             </p>
             <p>
               We believe in offering food that is full of taste, freshness and tradition. Every dish is carefully prepared using high-quality ingredients and our specially crafted homemade spices.
             </p>
             <p>
-              Whether you're craving aromatic biryani, flavourful tandoori platters or wholesome thalis, we make sure every meal feels satisfying and memorable. Our team is committed to great taste, hygiene and warm hospitality — at PK Biryani House No 1, we serve food with love, just the way you like it.
+              Whether you're craving aromatic biryani, flavourful tandoori platters or wholesome thalis, we make sure every meal feels satisfying and memorable. Our team is committed to great taste, hygiene and warm hospitality — at Hotel Chul Jatra, we serve food with love, just the way you like it.
             </p>
           </div>
         </div>
