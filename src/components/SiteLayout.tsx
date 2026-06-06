@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import { SiteNav } from "./SiteNav";
 import { SiteFooter } from "./SiteFooter";
+import { MessageCircle } from "lucide-react";
 
 export function SiteLayout({ children }: { children: ReactNode }) {
   return (
