@@ -66,15 +66,20 @@ function Contact() {
         </div>
 
         <div className="mx-auto mt-16 max-w-6xl px-6 md:px-10">
-          <div className="overflow-hidden rounded-2xl border shadow-sm">
-            <iframe
-              title="PK Biryani House location"
-              src="https://www.google.com/maps?q=112+MIDC+Moshi+Pune+411062&output=embed"
-              width="100%"
-              height="400"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+          <div className="flex flex-col items-center gap-4 rounded-2xl border bg-card p-10 text-center shadow-sm">
+            <MapPin className="h-10 w-10 text-primary" />
+            <h3 className="font-display text-2xl font-bold">Find us on the map</h3>
+            <p className="max-w-xl text-sm text-muted-foreground">
+              112, MIDC, Moshi, Pune, Pimpri-Chinchwad, Maharashtra 411062. Tap below to open turn-by-turn directions in Google Maps.
+            </p>
+            <a
+              href="https://maps.app.goo.gl/VsyYGHbK1gAJiEru5"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
+            >
+              <MapPin className="h-4 w-4" /> Get Directions
+            </a>
           </div>
         </div>
       </section>
