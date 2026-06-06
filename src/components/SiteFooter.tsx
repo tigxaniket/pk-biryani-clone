@@ -17,7 +17,7 @@ export function SiteFooter() {
           <h4 className="font-display text-lg text-primary">Address</h4>
           <p className="mt-3 flex items-start gap-2 text-sm text-background/80">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
-            Mhatre Bridge, 100 feet, DP Rd, near Saibaba Mandir, Vakil Nagar, Karvenagar, Pune, Maharashtra 411052
+            112, MIDC, Moshi, Pune, Pimpri-Chinchwad, Maharashtra 411062
           </p>
         </div>
 

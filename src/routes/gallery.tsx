@@ -16,7 +16,7 @@ export const Route = createFileRoute("/gallery")({
   head: () => ({
     meta: [
       { title: "Gallery | Hotel Chul Jatra" },
-      { name: "description", content: "A look at our dishes and ambience at Hotel Chul Jatra in Karvenagar, Pune." },
+      { name: "description", content: "A look at our dishes and ambience at Hotel Chul Jatra in Moshi, Pune." },
     ],
   }),
   component: Gallery,

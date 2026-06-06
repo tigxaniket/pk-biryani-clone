@@ -6,7 +6,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact | Hotel Chul Jatra" },
-      { name: "description", content: "Visit or call Hotel Chul Jatra in Karvenagar, Pune. Open daily 11 AM – 11 PM." },
+      { name: "description", content: "Visit or call Hotel Chul Jatra in Moshi, Pune. Open daily 11 AM – 11 PM." },
     ],
   }),
   component: Contact,
@@ -28,7 +28,7 @@ function Contact() {
       <section className="py-16 md:py-24">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 md:grid-cols-2 md:px-10">
           <div className="space-y-6">
-            <InfoCard icon={MapPin} title="Address" body="Hotel Swayambhu, MH SH 27, Sanaswadi, Pune, Maharashtra 412208" />
+            <InfoCard icon={MapPin} title="Address" body="112, MIDC, Moshi, Pune, Pimpri-Chinchwad, Maharashtra 411062" />
             <InfoCard icon={Phone} title="Phone" body={<a href="tel:01205244586" className="hover:text-secondary">01205244586</a>} />
             <InfoCard icon={Mail} title="Email" body={<a href="mailto:hello@hotelchuljatra.in" className="hover:text-secondary">hello@hotelchuljatra.in</a>} />
             <InfoCard icon={Clock} title="Timings" body="Mon – Sun · 11:00 AM – 11:00 PM (All days open)" />
@@ -70,7 +70,7 @@ function Contact() {
           <div className="overflow-hidden rounded-2xl border shadow-sm">
             <iframe
               title="Hotel Chul Jatra location"
-              src="https://www.google.com/maps?q=Hotel+Chul+Jatra+Sanaswadi+Pune&ll=18.6824117,73.8342683&z=17&output=embed"
+              src="https://www.google.com/maps?q=112+MIDC+Moshi+Pune&z=17&output=embed"
               width="100%"
               height="400"
               loading="lazy"
