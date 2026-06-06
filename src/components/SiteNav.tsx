@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-chul-jatra.jpg.asset.json";
 import { Menu, X, Phone } from "lucide-react";
 
 const links = [
@@ -17,7 +17,7 @@ export function SiteNav() {
     <header className="sticky top-0 z-50 bg-primary text-primary-foreground shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-8">
         <Link to="/" className="flex items-center gap-2">
-          <img src={logo} alt="PK Biryani House logo" className="h-14 w-14 object-contain" />
+          <img src={logo.url} alt="Hotel Chul Jatra logo" className="h-14 w-14 rounded-full object-cover" />
           <span className="font-display text-xl font-bold tracking-tight md:text-2xl">
             PK Biryani House
           </span>
