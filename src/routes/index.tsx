@@ -29,7 +29,7 @@ const dishes = [
   { img: muttonBiryani, name: "Mutton Biryani", desc: "Slow-cooked dum mutton layered with aged basmati." },
   { img: chicken65, name: "Chicken 65", desc: "Fiery South-Indian crispy chicken starter." },
   { img: chickenThali, name: "Chicken Thali", desc: "Wholesome platter with curry, rice, roti & sides." },
-  { img: paneer, name: "Paneer Masala", desc: "Creamy tomato-cashew gravy with fresh paneer." },
+  { img: paneer, name: "Veg Thali", desc: "Wholesome platter with curry,rice,bhakri/roti,raita" },
   { img: tandoori, name: "Tandoori Special", desc: "Charcoal-grilled, smoky and well-marinated." },
   { img: vegBiryani, name: "Veg Biryani", desc: "Aromatic basmati with seasonal veg & whole spices." },
 ];
