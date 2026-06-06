@@ -4,7 +4,8 @@ import { Phone, Star, ChefHat, Flame, Utensils, Leaf, ShieldCheck, Heart, ArrowR
 import hero from "@/assets/hero-biryani.jpg";
 import muttonBiryani from "@/assets/mutton-biryani.jpg";
 import chicken65 from "@/assets/chicken-65.jpg";
-import chickenThali from "@/assets/chicken-thali.jpg";
+import chickenThaliAsset from "@/assets/chicken-thali-new.avif.asset.json";
+const chickenThali = chickenThaliAsset.url;
 import paneer from "@/assets/paneer-masala.jpg";
 import tandoori from "@/assets/tandoori.jpg";
 import vegBiryani from "@/assets/veg-biryani.jpg";
