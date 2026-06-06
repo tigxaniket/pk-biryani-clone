@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div>
           <img src={logo.url} alt="Hotel Chul Jatra logo" className="h-20 w-20 rounded-full object-cover" loading="lazy" />
           <p className="mt-4 text-sm text-background/70">
-            Authentic biryani, tandoori and thalis served fresh every day in Pune.
+            Authentic  thalis and biryani served fresh every day in Pune.
           </p>
         </div>
 
