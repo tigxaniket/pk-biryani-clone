@@ -24,7 +24,7 @@ export function SiteFooter() {
         <div>
           <h4 className="font-display text-lg text-primary">Contact & Timings</h4>
           <p className="mt-3 flex items-center gap-2 text-sm text-background/80">
-            <Phone className="h-4 w-4 text-primary" /> 01205244586
+            <Phone className="h-4 w-4 text-primary" /> 9158440062
           </p>
           <p className="mt-2 flex items-center gap-2 text-sm text-background/80">
             <Clock className="h-4 w-4 text-primary" /> Mon–Sun · 11:00 AM – 11:00 PM

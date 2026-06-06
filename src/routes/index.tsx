@@ -193,8 +193,8 @@ function Home() {
             <h2 className="font-display text-3xl font-bold md:text-4xl">Hungry already? We're open till 11 PM.</h2>
             <p className="mt-2 text-primary-foreground/80">Call us to order, reserve or arrange catering.</p>
           </div>
-          <a href="tel:01205244586" className="inline-flex items-center gap-2 rounded-full bg-foreground px-7 py-3.5 text-sm font-semibold text-background transition hover:bg-secondary">
-            <Phone className="h-4 w-4" /> Call : 01205244586
+          <a href="tel:9158440062" className="inline-flex items-center gap-2 rounded-full bg-foreground px-7 py-3.5 text-sm font-semibold text-background transition hover:bg-secondary">
+            <Phone className="h-4 w-4" /> Call : 9158440062
           </a>
         </div>
       </section>
