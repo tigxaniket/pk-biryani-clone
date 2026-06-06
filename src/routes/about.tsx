@@ -30,20 +30,14 @@ function About() {
           <img src={interior} alt="Restaurant interior" className="aspect-[4/3] rounded-2xl object-cover shadow-xl" loading="lazy" />
           <div className="space-y-4 text-muted-foreground">
             <p>
-              PK Biryani House No 1 is a family restaurant located at 112, MIDC, Moshi, Pimpri-Chinchwad. We serve delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis — perfect for families, friends and quick solo meals.
+              At PK Biryani House No 1, we bring you the real taste of authentic flavours with every bite. Located in Karvenagar, Pune, our restaurant is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis.
             </p>
             <p>
-              Open every day from 11 AM to 11 PM, we make it easy to enjoy a hearty meal at the restaurant or get your favourites delivered with our <strong>Order Online</strong> service.
+              We believe in offering food that is full of taste, freshness and tradition. Every dish is carefully prepared using high-quality ingredients and our specially crafted homemade spices.
             </p>
             <p>
-              Every dish is carefully prepared using high-quality ingredients and our specially crafted homemade spices. Our team is committed to great taste, hygiene and warm hospitality — we serve food with love, just the way you like it.
+              Whether you're craving aromatic biryani, flavourful tandoori platters or wholesome thalis, we make sure every meal feels satisfying and memorable. Our team is committed to great taste, hygiene and warm hospitality — at PK Biryani House No 1, we serve food with love, just the way you like it.
             </p>
-            <ul className="grid grid-cols-2 gap-3 pt-2 text-sm text-foreground">
-              <li className="rounded-lg border bg-card p-3">🍽️ Family Restaurant</li>
-              <li className="rounded-lg border bg-card p-3">📦 Order Online</li>
-              <li className="rounded-lg border bg-card p-3">🕚 Open 11 AM – 11 PM</li>
-              <li className="rounded-lg border bg-card p-3">🥗 Veg & Non-Veg</li>
-            </ul>
           </div>
         </div>
       </section>

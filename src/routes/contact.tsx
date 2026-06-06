@@ -28,7 +28,7 @@ function Contact() {
       <section className="py-16 md:py-24">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 md:grid-cols-2 md:px-10">
           <div className="space-y-6">
-            <InfoCard icon={MapPin} title="Address" body="112, MIDC, Moshi, Pune, Pimpri-Chinchwad, Maharashtra 411062" />
+            <InfoCard icon={MapPin} title="Address" body="Mhatre Bridge, 100 feet, DP Rd, near Saibaba Mandir, Vakil Nagar, Karvenagar, Pune, Maharashtra 411052" />
             <InfoCard icon={Phone} title="Phone" body={<a href="tel:01205244586" className="hover:text-secondary">01205244586</a>} />
             <InfoCard icon={Mail} title="Email" body={<a href="mailto:hello@pkbiryanihouse.in" className="hover:text-secondary">hello@pkbiryanihouse.in</a>} />
             <InfoCard icon={Clock} title="Timings" body="Mon – Sun · 11:00 AM – 11:00 PM (All days open)" />
@@ -66,20 +66,15 @@ function Contact() {
         </div>
 
         <div className="mx-auto mt-16 max-w-6xl px-6 md:px-10">
-          <div className="flex flex-col items-center gap-4 rounded-2xl border bg-card p-10 text-center shadow-sm">
-            <MapPin className="h-10 w-10 text-primary" />
-            <h3 className="font-display text-2xl font-bold">Find us on the map</h3>
-            <p className="max-w-xl text-sm text-muted-foreground">
-              112, MIDC, Moshi, Pune, Pimpri-Chinchwad, Maharashtra 411062. Tap below to open turn-by-turn directions in Google Maps.
-            </p>
-            <a
-              href="https://maps.app.goo.gl/VsyYGHbK1gAJiEru5"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-primary px-7 py-3.5 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90"
-            >
-              <MapPin className="h-4 w-4" /> Get Directions
-            </a>
+          <div className="overflow-hidden rounded-2xl border shadow-sm">
+            <iframe
+              title="PK Biryani House location"
+              src="https://www.google.com/maps?q=Karvenagar+Pune&output=embed"
+              width="100%"
+              height="400"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </section>

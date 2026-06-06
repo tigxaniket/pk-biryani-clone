@@ -93,15 +93,8 @@ function Menu() {
           <span className="font-display text-sm uppercase tracking-[0.4em]">Our Menu</span>
           <h1 className="mt-2 font-display text-5xl font-bold md:text-6xl">A flavour for every craving</h1>
           <p className="mx-auto mt-4 max-w-2xl">
-            A family restaurant in Moshi, Pune serving veg & non-veg biryani, tandoori, thalis, curries and more. Open daily 11 AM – 11 PM.
+            Prices are indicative. Please call <a href="tel:01205244586" className="underline underline-offset-4">01205244586</a> to confirm availability or place an order.
           </p>
-          <div className="mx-auto mt-6 flex max-w-3xl flex-wrap items-center justify-center gap-2 text-xs font-semibold uppercase tracking-wider">
-            <span className="rounded-full bg-primary-foreground/15 px-4 py-1.5">Family Restaurant</span>
-            <span className="rounded-full bg-primary-foreground/15 px-4 py-1.5">Order Online</span>
-            <span className="rounded-full bg-primary-foreground/15 px-4 py-1.5">Dine-In</span>
-            <span className="rounded-full bg-primary-foreground/15 px-4 py-1.5">Vegetarian Options</span>
-            <span className="rounded-full bg-primary-foreground/15 px-4 py-1.5">Late-Night Food</span>
-          </div>
         </div>
       </section>
 
