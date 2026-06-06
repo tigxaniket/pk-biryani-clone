@@ -147,7 +147,7 @@ function Home() {
         <div className="relative mx-auto max-w-7xl px-6 text-background md:px-10">
           <div className="text-center">
             <span className="font-display text-sm uppercase tracking-[0.4em] text-primary">Why Choose Us</span>
-            <h2 className="mt-3 font-display text-4xl font-bold md:text-5xl">Pune's favourite biryani destination</h2>
+            <h2 className="mt-3 font-display text-4xl font-bold md:text-5xl">Moshi's favourite thali destination</h2>
           </div>
           <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {reasons.map((r) => (
