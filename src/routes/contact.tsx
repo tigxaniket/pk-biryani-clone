@@ -69,7 +69,7 @@ function Contact() {
           <div className="overflow-hidden rounded-2xl border shadow-sm">
             <iframe
               title="PK Biryani House location"
-              src="https://www.google.com/maps?q=Karvenagar+Pune&output=embed"
+              src="https://www.google.com/maps?q=112+MIDC+Moshi+Pune+411062&output=embed"
               width="100%"
               height="400"
               loading="lazy"
