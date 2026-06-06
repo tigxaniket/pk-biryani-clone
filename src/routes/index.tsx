@@ -13,10 +13,10 @@ import interior from "@/assets/restaurant-interior.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PK Biryani House No 1 | Best Biryani Restaurant in Pune" },
-      { name: "description", content: "Authentic veg & non-veg biryani, tandoori specialities and hearty thalis. Karvenagar, Pune. Open 11AM–11PM daily." },
-      { property: "og:title", content: "PK Biryani House No 1" },
-      { property: "og:description", content: "Authentic biryani, tandoori and thalis in Karvenagar, Pune." },
+      { title: "Hotel Chul Jatra | Best Biryani & Tandoori in Pune" },
+      { name: "description", content: "Authentic veg & non-veg biryani, tandoori specialities and hearty thalis at Hotel Chul Jatra. Karvenagar, Pune. Open 11AM–11PM daily." },
+      { property: "og:title", content: "Hotel Chul Jatra" },
+      { property: "og:description", content: "Authentic biryani, tandoori and thalis at Hotel Chul Jatra in Karvenagar, Pune." },
     ],
   }),
   component: Home,
@@ -56,7 +56,7 @@ function Home() {
         <div className="relative mx-auto flex max-w-4xl flex-col items-center px-6 py-32 text-center text-background md:py-44">
           <span className="font-display text-sm uppercase tracking-[0.4em] text-primary">Welcome to</span>
           <h1 className="mt-4 font-display text-5xl font-bold leading-tight md:text-7xl">
-            PK Biryani House <span className="text-primary">No 1</span>
+            Hotel Chul <span className="text-primary">Jatra</span>
           </h1>
           <p className="mt-6 max-w-2xl text-base text-background/85 md:text-lg">
             Serving authentic veg and non-veg biryani, rich tandoori flavours and wholesome thalis — crafted with love, freshness and true traditional taste.
@@ -92,7 +92,7 @@ function Home() {
               The real taste of <span className="text-secondary">tradition</span>
             </h2>
             <p className="mt-6 text-muted-foreground">
-              Located in Pune, PK Biryani House No 1 is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes and a wide range of freshly prepared Indian Thalis.
+              Located in Pune, Hotel Chul Jatra is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes and a wide range of freshly prepared Indian Thalis.
             </p>
             <p className="mt-4 text-muted-foreground">
               Every dish is carefully prepared using high-quality ingredients and our specially crafted homemade spices. Our team is committed to great taste, hygiene and warm hospitality — we serve food with love, just the way you like it.

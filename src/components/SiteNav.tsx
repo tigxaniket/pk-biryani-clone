@@ -19,7 +19,7 @@ export function SiteNav() {
         <Link to="/" className="flex items-center gap-2">
           <img src={logo.url} alt="Hotel Chul Jatra logo" className="h-14 w-14 rounded-full object-cover" />
           <span className="font-display text-xl font-bold tracking-tight md:text-2xl">
-            PK Biryani House
+            Hotel Chul Jatra
           </span>
         </Link>
 
