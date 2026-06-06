@@ -44,9 +44,9 @@ const reasons = [
 ];
 
 const reviews = [
-  { name: "Rohan Mehta", text: "The most flavourful biryani in Pune. Perfect spices, fresh ingredients and fast service. A must-visit for biryani lovers!" },
-  { name: "Shweta Kulkarni", text: "The tandoori dishes were amazing — juicy, well-marinated and full of taste. Friendly staff and excellent food quality." },
-  { name: "Amit Deshmukh", text: "Veg and non-veg thalis are delicious, filling and affordable. Authentic taste and consistent quality. Never disappoints!" },
+  { name: "Abhijeet Sharma", text: "A fantastic spot for families! The staff was very welcoming and accommodating with our children, and the kids' menu offered great, healthy options. The food was delicious and authentic" },
+  { name: "Shweta Kulkarni", text: "Had a great experience at Chuljatra Hotel. The food was tasty, well-prepared, and served fresh. The ambience was pleasant and the staff was polite and attentive. Overall, a nice place to visit with family and friends. Would definitely recommend!" },
+  { name: "Jyoti Vishwakarma", text: "Chuljatra Hotel is a lovely spot for good food lovers. The flavours were authentic, portions were satisfying, and the quality was excellent. Service was quick and staff was very courteous. A comfortable place to enjoy a relaxed meal." },
 ];
 
 function Home() {
