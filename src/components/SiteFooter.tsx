@@ -1,13 +1,13 @@
 import { Link } from "@tanstack/react-router";
 import { MapPin, Phone, Clock } from "lucide-react";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-chul-jatra.jpg.asset.json";
 
 export function SiteFooter() {
   return (
     <footer className="bg-foreground text-background">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-16 md:grid-cols-4 md:px-10">
         <div>
-          <img src={logo} alt="PK Biryani House logo" className="h-20 w-20 rounded-full bg-primary p-2" loading="lazy" />
+          <img src={logo.url} alt="Hotel Chul Jatra logo" className="h-20 w-20 rounded-full object-cover" loading="lazy" />
           <p className="mt-4 text-sm text-background/70">
             Authentic biryani, tandoori and thalis served fresh every day in Pune.
           </p>
