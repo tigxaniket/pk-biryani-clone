@@ -6,8 +6,9 @@ import chickenThali from "@/assets/chicken-thali.jpg";
 import paneer from "@/assets/paneer-masala.jpg";
 import tandoori from "@/assets/tandoori.jpg";
 import vegBiryani from "@/assets/veg-biryani.jpg";
-import interior from "@/assets/restaurant-interior.jpg";
+import interiorAsset from "@/assets/gallery-exterior.jpg.asset.json";
 import hero from "@/assets/hero-biryani.jpg";
+const interior = interiorAsset.url;
 
 export const Route = createFileRoute("/gallery")({
   head: () => ({
