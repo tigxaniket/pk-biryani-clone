@@ -97,7 +97,7 @@ function Menu() {
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <a
-              href="https://www.zomato.com"
+              href="https://www.zomato.com/pune/hotel-chul-jatra-bhosari/order?v=o2"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-[#CB202D] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#a31b26]"
@@ -105,7 +105,7 @@ function Menu() {
               Order on Zomato
             </a>
             <a
-              href="https://www.swiggy.com"
+              href="https://www.swiggy.com/city/pune/hotel-chul-jatra-moshi-bhosari-bhosari-rest1372082?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-[#FC8019] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#d96b14]"
