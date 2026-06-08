@@ -95,6 +95,24 @@ function Menu() {
           <p className="mx-auto mt-4 max-w-2xl">
             Prices are indicative. Please call <a href="tel:9158440062" className="underline underline-offset-4">9158440062</a> to confirm availability or place an order.
           </p>
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+            <a
+              href="https://www.zomato.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-[#CB202D] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#a31b26]"
+            >
+              Order on Zomato
+            </a>
+            <a
+              href="https://www.swiggy.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-[#FC8019] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#d96b14]"
+            >
+              Order on Swiggy
+            </a>
+          </div>
         </div>
       </section>
 
