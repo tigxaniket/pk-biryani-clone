@@ -1,6 +1,12 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import { Phone, Star, ChefHat, Flame, Utensils, Leaf, ShieldCheck, Heart, ArrowRight } from "lucide-react";
+import { Phone, Star, ChefHat, Flame, Utensils, Leaf, ShieldCheck, Heart, ArrowRight, ShoppingBag } from "lucide-react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import hero from "@/assets/hero-biryani.jpg";
 import muttonBiryani from "@/assets/mutton-biryani.jpg";
 import chicken65 from "@/assets/chicken-65.jpg";
@@ -71,12 +77,33 @@ function Home() {
             >
               Contact Us <ArrowRight className="h-4 w-4" />
             </Link>
-            <Link
-              to="/menu"
-              className="inline-flex items-center gap-2 rounded-full border border-background/30 px-7 py-3.5 text-sm font-semibold text-background transition hover:bg-background/10"
-            >
-              View Menu
-            </Link>
+            <DropdownMenu>
+              <DropdownMenuTrigger className="inline-flex items-center gap-2 rounded-full border border-background/30 px-7 py-3.5 text-sm font-semibold text-background transition hover:bg-background/10">
+                <ShoppingBag className="h-4 w-4" /> Order Now
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="center" className="w-56">
+                <DropdownMenuItem asChild>
+                  <a
+                    href="https://www.zomato.com/pune/hotel-chul-jatra-bhosari/order?v=o2"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer font-semibold text-[#CB202D]"
+                  >
+                    Order on Zomato
+                  </a>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
+                  <a
+                    href="https://www.swiggy.com/city/pune/hotel-chul-jatra-moshi-bhosari-bhosari-rest1372082?utm_source=GooglePlaceOrder&utm_campaign=GoogleMap&is_retargeting=true&media_source=GooglePlaceOrder"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cursor-pointer font-semibold text-[#FC8019]"
+                  >
+                    Order on Swiggy
+                  </a>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
       </section>
