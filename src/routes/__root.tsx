@@ -77,14 +77,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "hotel chul jatra" },
+      { name: "description", content: "चव मराठमोळ्या जेवणाची
+घरगुती पद्धतीने काळा मसाल्यात बनवलेल मटण, चिकन आणि अंडा थाळी." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "hotel chul jatra" },
+      { property: "og:description", content: "चव मराठमोळ्या जेवणाची
+घरगुती पद्धतीने काळा मसाल्यात बनवलेल मटण, चिकन आणि अंडा थाळी." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "hotel chul jatra" },
+      { name: "twitter:description", content: "चव मराठमोळ्या जेवणाची
+घरगुती पद्धतीने काळा मसाल्यात बनवलेल मटण, चिकन आणि अंडा थाळी." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/4d17671e-d5ab-43be-b58a-40ee0f0e7892" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/4d17671e-d5ab-43be-b58a-40ee0f0e7892" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
