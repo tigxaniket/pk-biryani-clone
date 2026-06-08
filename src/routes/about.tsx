@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteLayout } from "@/components/SiteLayout";
-import interior from "@/assets/restaurant-interior.jpg";
+import interiorAsset from "@/assets/restaurant-exterior-new.jpg.asset.json";
+const interior = interiorAsset.url;
 import hero from "@/assets/hero-biryani.jpg";
 
 export const Route = createFileRoute("/about")({
@@ -27,7 +28,7 @@ function About() {
 
       <section className="py-20 md:py-28">
         <div className="mx-auto grid max-w-6xl gap-12 px-6 md:grid-cols-2 md:items-center md:px-10">
-          <img src={interior} alt="Restaurant interior" className="aspect-[4/3] rounded-2xl object-cover shadow-xl" loading="lazy" />
+          <img src={interior} alt="Hotel Chul Jatra restaurant exterior at night" className="aspect-[4/3] rounded-2xl object-cover shadow-xl" loading="lazy" />
           <div className="space-y-4 text-muted-foreground">
             <p>
               At Hotel Chul Jatra, we bring you the real taste of authentic flavours with every bite. Located in Moshi, Pune, our restaurant is renowned for serving delicious Vegetarian and Non-Vegetarian Biryani, rich Tandoori dishes, and a wide range of freshly prepared Indian Thalis.
