@@ -25,11 +25,11 @@ const sections: Section[] = [
     title: "Biryani",
     img: muttonBiryani,
     items: [
-      { name: "Chicken Dum Biryani", price: "₹220", desc: "Long-grain basmati, marinated chicken, dum cooked." },
-      { name: "Mutton Biryani", price: "₹320", desc: "Slow-cooked tender mutton on aromatic rice." },
-      { name: "Veg Biryani", price: "₹180", desc: "Seasonal veg, cashew, raisin, whole spices." },
-      { name: "Egg Biryani", price: "₹170" },
-      { name: "Paneer Biryani", price: "₹200" },
+      { name: "Chicken Biryani", price: "₹360", desc: "Long-grain basmati, marinated chicken, dum cooked." },
+      { name: "Mutton Biryani", price: "₹450", desc: "Slow-cooked tender mutton on aromatic rice." },
+      { name: "Veg Biryani", price: "₹560", desc: "Long-grain basmati,whole spices, prawns." },
+      { name: "Steamed Rice", price: "₹70" },
+      { name: "Indrayani Rice", price: "₹60" },
     ],
   },
   {
