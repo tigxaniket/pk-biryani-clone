@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/logo-chul-jatra.jpg.asset.json";
+import logo from "@/assets/logo-chul-jatra-new.jpg.asset.json";
 import { Menu, X, Phone } from "lucide-react";
 
 const links = [
