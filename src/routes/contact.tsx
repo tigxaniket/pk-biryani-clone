@@ -90,7 +90,7 @@ function Contact() {
           <div className="overflow-hidden rounded-2xl border shadow-sm">
             <iframe
               title="Hotel Chul Jatra location"
-              src="https://maps.app.goo.gl/XFG29i7p9J3XhEZs9"
+              src="https://www.google.com/maps?cid=18189897985253311642&g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAF&hl=en-IN&source=embed"
               width="100%"
               height="400"
               loading="lazy"
